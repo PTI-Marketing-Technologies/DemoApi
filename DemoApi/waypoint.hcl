@@ -30,6 +30,11 @@ variable "docker_tag" {
 # Enable that Waypoint Static Runner
 runner {
   enabled = true
+
+  env = {
+    REGISTRY_USERNAME = "Test"
+    REGISTRY_PASSWORD = "Test"
+  }
 }
 
 # An application to deploy.
