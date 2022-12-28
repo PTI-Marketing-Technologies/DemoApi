@@ -41,7 +41,7 @@ app "example" {
     use "pack" {
 #      The default pack image is heroku/buildpacks which supports a variety of languages and environments (https://devcenter.heroku.com/articles/buildpacks)
 #      Heroku does not natively support .NET as of this writing, however, paketobuildpacks/builder does. Uncomment this line to utilize Paketo BuildPacks
-      builder = "cloudfoundry/cnb"
+
     }
 
 #    Use a remote docker registry to push your built images.
