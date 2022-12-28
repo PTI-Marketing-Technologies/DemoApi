@@ -24,7 +24,7 @@ variable "docker_image" {
 
 variable "docker_tag" {
   type = string
-  default = "1.0.2"
+  default = "1.0.3"
 }
 
 # Enable that Waypoint Static Runner
