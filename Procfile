@@ -1,0 +1,1 @@
+﻿web: dotnet ./DemoApi/DemoApi.dll
